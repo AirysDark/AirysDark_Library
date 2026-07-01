@@ -1,0 +1,38 @@
+# 1. Get the exact size in bytes
+(Get-Item .\NV3047-1.0.0.zip).Length
+
+# 2. Get the SHA-256 Hash string
+Get-FileHash .\NV3047-1.0.0.zip -Algorithm SHA256 | Format-List
+
+
+
+{
+  "packages": [
+    {
+      "name": "NV3047_Ecosystem",
+      "maintainer": "AirysDark",
+      "websiteURL": "https://github.com",
+      "email": "your_email@example.com",
+      "help": {
+        "online": "https://github.com/NV3047/issues"
+      },
+      "platforms": [
+        {
+          "name": "NV3047 Custom Driver Board",
+          "architecture": "esp32",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/NV3047/archive/refs/tags/v1.0.0.zip",
+          "archiveFileName": "NV3047-1.0.0.zip",
+          "checksum": "SHA-256:PLACEHOLDER_HASH_HERE",
+          "size": "PLACEHOLDER_SIZE_BYTES_HERE",
+          "boards": [
+            {"name": "CrowPanel 4.3 HMI Core v1.0"}
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
