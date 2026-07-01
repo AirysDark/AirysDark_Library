@@ -1,0 +1,58 @@
+{
+  "packages": [
+    {
+      "name": "NV3047_Ecosystem",
+      "maintainer": "AirysDark",
+      "websiteURL": "https://github.com",
+      "email": "megamanx2sonic@gmail.com",
+      "help": {
+        "online": "https://github.com/issues"
+      },
+      "platforms": [
+        {
+          "name": "NV3047 Custom Driver Board",
+          "architecture": "esp32",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/releases/download/1.0.0/NV3047-1.0.0.zip",
+          "archiveFileName": "NV3047-1.0.0.zip",
+          "checksum": "SHA-256:D7EE0FFD122D83F70D4C353D4163537EC74B5C3FFFDAE81451EB511CCCC46DEF",
+          "size": "21591",
+          "boards": [
+            {"name": "CrowPanel 4.3 HMI Core v1.0"}
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "NV3047 UI Framework",
+          "architecture": "esp32",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com",
+          "archiveFileName": "NV3047_UI-1.0.0.zip",
+          "checksum": "SHA-256:PASTE_YOUR_UI_HASH_HERE",
+          "size": "PASTE_YOUR_UI_SIZE_HERE",
+          "boards": [
+            {"name": "NV3047 UI Layer"}
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "NV3047 Advanced Widgets",
+          "architecture": "esp32",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com",
+          "archiveFileName": "NV3047_Widgets-1.0.0.zip",
+          "checksum": "SHA-256:PASTE_YOUR_WIDGET_HASH_HERE",
+          "size": "PASTE_YOUR_WIDGET_SIZE_HERE",
+          "boards": [
+            {"name": "NV3047 Extended Assets"}
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
